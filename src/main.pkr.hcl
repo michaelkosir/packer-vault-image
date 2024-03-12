@@ -50,7 +50,7 @@ build {
       # setup
       "sudo chown -R root:vault /etc/vault.d/",
       "sudo chmod 640 /etc/vault.d/*",
-      "sudo rm /opt/vault/tls/*"
+      "sudo rm /opt/vault/tls/*",
 
       # cloud-init cleanup
       "sudo cloud-init clean",
